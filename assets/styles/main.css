@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@import "@nuxt/ui";
+
+@import "animate.css";
+
+body {
+  padding: 40px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+}

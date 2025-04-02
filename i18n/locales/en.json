@@ -1,0 +1,31 @@
+{
+  "lang": "EN",
+  "label1": "Home",
+  "label2": "3D Visualization",
+  "articles": {
+    "0": {
+      "title": "How to Build a Vue.js Application",
+      "text": "In this article, we will explore the steps to build a robust Vue.js application from scratch. We will cover all the essential aspects like state management, routing, and best practices."
+    },
+    "1": {
+      "title": "Understanding Vue 3 Composition API",
+      "text": "The Composition API is a major feature introduced in Vue 3. It provides a new way of writing Vue components, making them more flexible and reusable. Let's dive into how it works."
+    },
+    "2": {
+      "title": "Best Practices for Managing State in Vue",
+      "text": "State management in Vue can be tricky. In this article, we will discuss the best practices for managing state effectively, including using Vuex and other techniques."
+    },
+    "3": {
+      "title": "Exploring Vue Router: A Comprehensive Guide",
+      "text": "Vue Router is essential for building single-page applications in Vue.js. In this guide, we will explore how to set up and configure routing, including dynamic routes and nested views."
+    },
+    "4": {
+      "title": "Mastering Vue.js Directives: An In-Depth Overview",
+      "text": "Vue.js directives are a powerful way to manipulate the DOM. In this article, we will go over built-in directives and how you can create custom ones to improve your Vue applications."
+    },
+    "5": {
+      "title": "Vue 3 vs Vue 2: Key Differences and Improvements",
+      "text": "Vue 3 introduces many breaking changes and new features. This article compares Vue 3 with Vue 2, highlighting the key differences and improvements to help you make an informed decision."
+    }
+  }
+}

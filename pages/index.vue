@@ -4,7 +4,10 @@ const { data, status, error } = useFetch("/api/data");
 
 <template>
   <div class="favorite space-y-8 max-w-[1200px]">
-    <div v-if="status === 'pending'" class="text-center text-gray-500 max-w-3xl m-auto mt-6">
+    <div
+      v-if="status === 'pending'"
+      class="text-center text-gray-500 max-w-3xl m-auto mt-6"
+    >
       <UProgress animation="swing" />
     </div>
 

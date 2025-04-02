@@ -4,6 +4,7 @@ import { Viewer, DefaultViewerParams, SpeckleLoader, UrlHelper } from "@speckle/
 import { CameraController, SelectionExtension } from "@speckle/viewer";
 
 const rendererRef = ref(null);
+const isLoading = ref(true);
 
 let isViewerInitialized = false;
 
@@ -31,6 +32,7 @@ async function initializeViewer() {
   }
 
   isViewerInitialized = true;
+  isLoading.value = false;
 }
 
 onMounted(() => {
@@ -39,5 +41,11 @@ onMounted(() => {
 </script>
 
 <template>
+  <div
+    v-if="isLoading"
+    class="text-center text-gray-500 max-w-3xl m-auto mt-6 absolute inset-0 flex items-center justify-center"
+  >
+    <UProgress animation="swing" />
+  </div>
   <div ref="rendererRef" class="w-full h-full absolute z-1 top-0 left-0"></div>
 </template>
